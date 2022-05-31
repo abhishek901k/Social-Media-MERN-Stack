@@ -10,11 +10,11 @@ const Profile = () => {
             
             <ProfileLeft/>
 
-            {/* <div className="Profile-center">
+            <div className="Profile-center">
                 <ProfileCard/>
                 <PostSide/>
-            </div> */}
-
+            </div>
+            
         </div>
     )
 }
