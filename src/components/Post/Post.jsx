@@ -4,6 +4,7 @@ import Comment from '../../img/comment.png'
 import Share from '../../img/share.png'
 import Heart from '../../img/like.png'
 import NotLike from '../../img/notlike.png'
+import RightSide from "../RightSide/RightSide";
 
 const Post = ({data}) => {
 
@@ -17,7 +18,7 @@ const Post = ({data}) => {
                 <img src={Share} alt="" />
             </div>
 
-            <span>{data.likes}</span>
+            <span style={{color: "var(--gray)", fontSize: '12px'}}>{data.likes} likes</span>
 
             <div className="detail">
                 <span><b>{data.name}</b></span>
